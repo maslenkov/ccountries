@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+  <name>Countries</name>
+  <creationDate>2013-01-24</creationDate>
+  <author>Eugene Maslenkov</author>
+  <authorEmail>maslenkov@i.ua</authorEmail>
+  <authorUrl>https://github.com/maslenkov</authorUrl>
+  <copyright>Copyright</copyright>
+  <license>License</license>
+  <version>0.1.0.0</version>
+  <description>Some description</description>
+  <files folder="site">
+    <filename>models/countries.php</filename>
+    <filename>models/index.html</filename>
+    <filename>views/countries/tmpl/default.php</filename>
+    <filename>views/countries/tmpl/index.html</filename>
+    <filename>views/countries/index.html</filename>
+    <filename>views/countries/view.html.php</filename>
+    <filename>views/index.html</filename>
+    <filename>controller.php</filename>
+    <filename>countries.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <administration>
+    <!-- Administration Menu Section -->
+    <menu>Countries</menu>
+
+    <!-- Administration Main File Copy Section -->
+    <files folder="admin">
+      <filename>controllers/country.php</filename>
+      <filename>controllers/index.html</filename>
+      <filename>models/countries.php</filename>
+      <filename>models/country.php</filename>
+      <filename>models/index.html</filename>
+      <filename>tables/countries.php</filename>
+      <filename>tables/index.html</filename>
+      <filename>views/countries/tmpl/default.php</filename>
+      <filename>views/countries/tmpl/index.html</filename>
+      <filename>views/countries/view.html.php</filename>
+      <filename>views/countries/index.html</filename>
+      <filename>views/country/tmpl/default.php</filename>
+      <filename>views/country/tmpl/form.php</filename>
+      <filename>views/country/tmpl/index.html</filename>
+      <filename>views/country/view.html.php</filename>
+      <filename>views/country/index.html</filename>
+      <filename>views/index.html</filename>
+      <filename>admin.countries.php</filename>
+      <filename>controller.php</filename>
+      <filename>index.html</filename>
+      <filename>install.sql</filename>
+      <filename>uninstall.sql</filename>
+    </files>
+  </administration>
+</install>

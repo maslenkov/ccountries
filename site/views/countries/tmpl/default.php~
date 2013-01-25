@@ -1,0 +1,7 @@
+<?php
+defined( '_JEXEC' ) or die( 'Restrict access' );
+?>
+<?php foreach ($this->countries as $country): ?>
+  <h1><?php echo $country->name ?>(<?php echo $country->id ?>)</h1>
+  <br />
+<?php endforeach ?>
